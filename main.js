@@ -27,3 +27,9 @@ for(let data in randomVals){
             break;
     }
 }
+
+function retGen(arr){
+    console.log(`\nName: ${arr[0]}\nAge: ${arr[1]}\nPhone: ${arr[2]}`)
+}
+
+retGen(generated);
